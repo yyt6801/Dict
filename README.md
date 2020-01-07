@@ -1,7 +1,13 @@
 # Dict
-《牛津英汉词典》 查词
+《牛津英汉词典》 查词  
 借用文本词典实现查词翻译功能，学习练手的好项目
-功能：   查词
+## 功能：  翻译、HttpServer、日志保存
+
+http_Server1.exe 可以接收前端或其他http get请求：
+#### 请求示例：http://127.0.0.1:9090/api/word=like   
+#### 返回示例： / lUk; lJk/ v 1 [I, Ipr, Ip] ~ (at sb/sth) turn one's eyes in a particular direction (in order to see sb/sth) 看; 瞧; 望: If you look carefully you can just see the church from here. 你仔细看的话, 可以从这里看到那座教堂. * We looked but saw nothing. 我们看了...
+
+
 -------------------
 ##### 1.后台C/C++ 实现在词典文本查词功能，涉及文件夹遍历，字符串拼接、处理、查找等；
 ##### 2.C/C++实现API接口，可接受HTTP请求，并对请求解析，涉及SOCKET通讯；
